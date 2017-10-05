@@ -7,8 +7,14 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Rouge+Script" rel="stylesheet">
+
     <!--Import materialize.css-->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -16,35 +22,37 @@
     </head>
 
     <body>
-      <div class="navbar-fixed">
+      <div class="navbar-fixed" id="nav-bar">
         <nav>
-          <div class="nav-wrapper" id="nav-bar">
-            <a href="#nav-bar">Home</a>
-
-            <!--MOVE NAV BAR TO CENTER-->
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="#our-story">Our Story</a></li>
-              <li><a href="#the-wedding">The Wedding</a></li>
-              <li><a href="#bridesmaids">Bridesmaids</a></li>
-              <li><a href="#groomsmen">Groomsmen</a></li>
-              <li><a href="#photo-gallery">Photos</a></li>
-              <li><a href="#gifts">Gifts</a></li>
+          <div class="nav-wrapper">
+            <a href="#nav-bar" class="nav-home">Lindsey and Ryan</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down reg-text">
+              <li><a href="#our-story"><i class="material-icons left">favorite</i>Our Story</a></li>
+              <li><a href="#the-wedding"><i class="material-icons left">event</i>The Wedding</a></li>
+              <li><a href="#bridesmaids"><i class="material-icons left">filter_vintage</i>Bridesmaids</a></li>
+              <li><a href="#groomsmen"><i class="material-icons left">group</i>Groomsmen</a></li>
+              <li><a href="#photo-gallery"><i class="material-icons left">camera_alt</i>Photos</a></li>
+              <li><a href="#gifts"><i class="material-icons left">card_giftcard</i>Gifts</a></li>
             </ul>
           </div>
         </nav>
+      </div>
+
+      <div class="banner parallax-container">
+        <div class="parallax"><img class="responsive-img banner-img" src="assets/images/IMG_5255_cropped.jpg"></div>
       </div>
     
       <div class="container" id="our-story">
         <div class="row">
           <div class="col s6">
-            <h2>BRIDE</h2>
-            <h1>LINDSEY</h1>
+            <h2 class="shadow-text section-top align-center">BRIDE</h2>
+            <h1 class="cursive align-center">Lindsey</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mattis nisl. Nunc eu malesuada leo. Curabitur nisl metus, euismod nec nisi et, sollicitudin ornare elit. Praesent suscipit, neque ut tristique venenatis, lacus mauris volutpat nibh, sed posuere nibh ligula ut turpis. Donec viverra tristique dui, sit amet tempus quam ultricies vitae. Aliquam finibus odio nec justo porttitor imperdiet. Nulla nec condimentum ex. Proin mauris purus, ultrices sit amet est at, viverra aliquet lacus. In id dolor vitae enim venenatis interdum at malesuada leo. Ut vitae condimentum risus, luctus ornare dui. Curabitur dignissim sodales ligula, id ullamcorper nunc gravida eget. Curabitur eget feugiat diam, a tempus elit. Sed semper rutrum sem ut laoreet. Donec facilisis risus sit amet diam scelerisque volutpat. Nullam ac ultrices lorem.</p>
             <p>Nam viverra vehicula sem in vestibulum. Cras vestibulum, massa eu pellentesque blandit, orci metus porttitor lorem, at fringilla leo ex sit amet tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget enim quis nibh bibendum interdum eget a nisl. Nullam eget massa sed enim consectetur aliquam nec id enim. Maecenas eget odio et urna mattis egestas vel ac tellus. Vestibulum scelerisque, nunc a fringilla maximus, urna tortor faucibus leo, sit amet porta ex massa et risus. Sed vel diam maximus, volutpat enim in, dictum risus. Integer auctor consectetur enim vitae sodales. Vestibulum in magna id metus ullamcorper finibus.</p>
           </div>
           <div class="col s6">
-            <h2>GROOM</h2>
-            <h1>RYAN</h1>
+            <h2 class="shadow-text section-top align-center">GROOM</h2>
+            <h1 class="cursive align-center">Ryan</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in mattis nisl. Nunc eu malesuada leo. Curabitur nisl metus, euismod nec nisi et, sollicitudin ornare elit. Praesent suscipit, neque ut tristique venenatis, lacus mauris volutpat nibh, sed posuere nibh ligula ut turpis. Donec viverra tristique dui, sit amet tempus quam ultricies vitae. Aliquam finibus odio nec justo porttitor imperdiet. Nulla nec condimentum ex. Proin mauris purus, ultrices sit amet est at, viverra aliquet lacus. In id dolor vitae enim venenatis interdum at malesuada leo. Ut vitae condimentum risus, luctus ornare dui. Curabitur dignissim sodales ligula, id ullamcorper nunc gravida eget. Curabitur eget feugiat diam, a tempus elit. Sed semper rutrum sem ut laoreet. Donec facilisis risus sit amet diam scelerisque volutpat. Nullam ac ultrices lorem.</p>
             <p>Nam viverra vehicula sem in vestibulum. Cras vestibulum, massa eu pellentesque blandit, orci metus porttitor lorem, at fringilla leo ex sit amet tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget enim quis nibh bibendum interdum eget a nisl. Nullam eget massa sed enim consectetur aliquam nec id enim. Maecenas eget odio et urna mattis egestas vel ac tellus. Vestibulum scelerisque, nunc a fringilla maximus, urna tortor faucibus leo, sit amet porta ex massa et risus. Sed vel diam maximus, volutpat enim in, dictum risus. Integer auctor consectetur enim vitae sodales. Vestibulum in magna id metus ullamcorper finibus.</p>
           </div>
@@ -54,21 +62,21 @@
       <div class="container" id="the-wedding">
         <div class="row">
           <div class="col s12">
-            <h1>THE WEDDING</h1>
+            <h1 class="cursive section-top align-center">The Wedding</h1>
           </div>
         </div><div class="row">
           <div class="col s12">
-            <h1>WHEN</h1>
+            <h1 class="header-text align-center">WHEN</h1>
           </div>
         </div>
         <div class="row">
           <div class="col s12">
-            <h1>WHERE</h1>
+            <h1 class="header-text align-center">WHERE</h1>
           </div>
         </div>
         <div class="row">
           <div class="col s12">
-            <h1>HOW</h1>
+            <h1 class="header-text align-center">HOW</h1>
           </div>
         </div>
       </div>
@@ -76,7 +84,7 @@
       <div class="container" id="bridesmaids">
         <div class="row">
           <div class="col s12">
-            <h1>BRIDESMAIDS (and mates)</h1>
+            <h1 class="cursive section-top align-center">Bridesmaids (and mates)</h1>
           </div>
         </div>
         <div class="row">
@@ -87,8 +95,9 @@
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>First Panel</h2>
-                  <p class="white-text">This is your first panel</p> 
+                  <h2 class="title-text">Alyssa Manse</h2>
+                  <h3 class="shadow-text align-center">Maid of Honor and Co-Skeeball Champion</h3>
+                  <p class="white-text reg-text">This is your first panel</p> 
                 </div>
               </div>
               <div class="carousel-item amber white-text row" href="#two!">
@@ -96,17 +105,19 @@
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Second Panel</h2>
-                  <p class="white-text">This is your second panel</p> 
+                  <h2 class="align-center title-text">Brigitte Fiorillo</h2>
+                  <h3 class="shadow-text align-center">Matron of Honor and Childhood Friend</h3>
+                  <p class="white-text reg-text">This is your second panel</p> 
                 </div>
               </div>
-              <div class="carousel-item amber white-text row" href="#three!">
+              <div class="carousel-item red white-text row" href="#three!">
                 <div class="col s3">
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Third Panel</h2>
-                  <p class="white-text">This is your Third panel</p> 
+                  <h2 class="align-center title-text">Sorelle Wyckoff</h2>
+                  <h3 class="shadow-text align-center">Long Distance Bestie and Childhood Friend</h3>
+                  <p class="white-text reg-text">This is your Third panel</p> 
                 </div>
               </div>
               <div class="carousel-item amber white-text row" href="#four!">
@@ -114,17 +125,19 @@
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Fourth Panel</h2>
-                  <p class="white-text">This is your Fourth panel</p> 
+                  <h2 class="align-center title-text">Danielle Allen</h2>
+                  <h3 class="shadow-text align-center">Ex-Roommate and Fellow Bobby Bones Lover</h3>
+                  <p class="white-text reg-text">This is your Fourth panel</p> 
                 </div>
               </div>
-              <div class="carousel-item amber white-text row" href="#five!">
+              <div class="carousel-item red white-text row" href="#five!">
                 <div class="col s3">
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Fifth Panel</h2>
-                  <p class="white-text">This is your Fifth panel</p> 
+                  <h2 class="align-center title-text">Haelee Horne</h2>
+                  <h3 class="shadow-text align-center">Ex-Roommate and Childhood Friend</h3>
+                  <p class="white-text reg-text">This is your Fifth panel</p> 
                 </div>
               </div>
               <div class="carousel-item amber white-text row" href="#six!">
@@ -132,17 +145,19 @@
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Sixth Panel</h2>
-                  <p class="white-text">This is your Sixth panel</p> 
+                  <h2 class="align-center title-text">Sarah Bates</h2>
+                  <h3 class="shadow-text align-center">Future Sister-in-Law</h3>
+                  <p class="white-text reg-text">This is your Sixth panel</p> 
                 </div>
               </div>
-              <div class="carousel-item amber white-text row" href="#seven!">
+              <div class="carousel-item red white-text row" href="#seven!">
                 <div class="col s3">
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Seventh Panel</h2>
-                  <p class="white-text">This is your Seventh panel</p> 
+                  <h2 class="align-center title-text">Zack Panos</h2>
+                  <h3 class="shadow-text align-center">Bridesmate and Childhood Friend</h3>
+                  <p class="white-text reg-text">This is your Seventh panel</p> 
                 </div>
               </div>
               <div class="carousel-item amber white-text row" href="#eight!">
@@ -150,8 +165,9 @@
                   <h2>insert image here</h2>
                 </div>
                 <div class="col s9">
-                  <h2>Eigth Panel</h2>
-                  <p class="white-text">This is your Eigth panel</p> 
+                  <h2 class="align-center title-text">Adrian Ramirez</h2>
+                  <h3 class="shadow-text align-center">Bridesmate and Ex-Roommate</h3>
+                  <p class="white-text reg-text">This is your Eigth panel</p> 
                 </div>
               </div>
             </div>
@@ -162,7 +178,7 @@
       <div class="container" id="groomsmen">
         <div class="row">
           <div class="col s12">
-            <h1>GROOMSMEN</h1>
+            <h1 class="cursive section-top align-center">Groomsmen</h1>
           </div>
         </div>
         <div class="row">
@@ -248,7 +264,7 @@
       <div class="container" id="photo-gallery">
         <div class="row">
           <div class="col s12">
-            <h1>PHOTOS</h1>
+            <h1 class="cursive section-top align-center">Photos</h1>
           </div>
         </div>
         <div class="row">
@@ -258,71 +274,71 @@
                 <li>
                   <img src="assets/images/IMG_3598.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_3939.jpg">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_4702.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_4975.jpg">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_5255.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_5349.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_5626.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
-                  <img src="assets/images/IMG_5630.JPG">
+                  <img  cass="cursive"src="assets/images/IMG_5630.JPG">
                   <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h3 class="cursive">This is our big Tagline!</h3>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_5809.JPG">
                   <div class="caption center-align">
                     <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>
                 <li>
                   <img src="assets/images/IMG_6465.JPG">
                   <div class="caption center-align">
                     <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    <h5 class="light grey-text text-lighten-3 reg-text">Here's our small slogan.</h5>
                   </div>
                 </li>               
               </ul>
@@ -334,17 +350,17 @@
       <div class="container" id="gifts">
         <div class="row">
           <div class="col s12">
-            <h1>GIFTS</h1>
+            <h1 class="cursive section-top align-center">Gifts</h1>
             <div class="row">
               <div class="col s12 m6">
                 <div class="card large">
                   <div class="card-image">
                     <img src="assets/images/IMG_3598.JPG">
-                    <span class="card-title">Card Title</span>
+                    <span class="card-title header-text align-center">Card Title</span>
                     <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                   </div>
                   <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    <p class="reg-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                   </div>
                 </div>
               </div>
@@ -352,11 +368,11 @@
                 <div class="card large">
                   <div class="card-image">
                     <img src="assets/images/IMG_3939.jpg">
-                    <span class="card-title">Card Title</span>
+                    <span class="card-title header-text align-center">Card Title</span>
                     <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
                   </div>
                   <div class="card-content">
-                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                    <p class="reg-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                   </div>
                 </div>
               </div>
@@ -364,26 +380,6 @@
           </div>
         </div>
       </div>
-
-    
-
-    <!--
-
-    Our Story
-
-    Wedding Details
-
-    Bridesmaids
-
-    Groomsmen
-
-    Photos
-
-    Gifts
-
-    RSVP (after invites)
-
-    -->
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

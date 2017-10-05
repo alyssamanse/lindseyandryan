@@ -1,27 +1,64 @@
-.white {
-
+.cursive {
+	font-family: 'Rouge Script', cursive;
+	font-weight: bold;
+	font-size: 70px;
+	margin: auto;
 }
 
-#home-button {
-
+.reg-text {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
 }
 
-.right {
-
+.header-text {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 24px;
 }
 
-.hide-on-med-and-down {
-
+.shadow-text {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #cecece;
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-weight: bold;
 }
 
-#index-banner {
-
+.title-text {
+	font-size: 65px !important;
+	color: #ffffff;
+	font-family: 'Rouge Script', cursive;
 }
 
-.section {
-
+.wed-party-text {
+	margin-top: 25%;
+	font-size: 48px;
 }
 
-.no-pad-bot {
-	
+.banner-img {
+	width: 100%;
+}
+
+.section-top {
+	margin-top: 75px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.nav-home {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+	font-family: 'Rouge Script', cursive;
+}
+
+body {
+	background: #f2f5f6;
+	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 50%, #c8d7dc 100%);
+	background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 50%,#c8d7dc 100%);
+	background: linear-gradient(to bottom, #f2f5f6 0%,#e3eaed 50%,#c8d7dc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 );
 }
