@@ -55,6 +55,11 @@
 	font-family: 'Rouge Script', cursive;
 }
 
+.wed-party-img {
+	position: absolute;
+	height: 100%;
+}
+
 body {
 	background: #f2f5f6;
 	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 50%, #c8d7dc 100%);
