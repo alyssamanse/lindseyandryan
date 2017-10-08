@@ -11,14 +11,23 @@ $(document).ready(function(){
 
   	$('a[href^="#"]').on('click', function(event) {
 
-    var target = $(this.getAttribute('href'));
-    
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
+	    var target = $(this.getAttribute('href'));
+
+	    if( target.length ) {
+	        event.preventDefault();
+	        $('html, body').stop().animate({
+	            scrollTop: target.offset().top
+	        }, 1000);
+	    }
+	});
+
+	$(".your-clock").TimeCircles(
+		{ time: {
+		    Days: { color: "#C0C8CF" },
+		    Hours: { color: "#C0C8CF" },
+		    Minutes: { color: "#C0C8CF" },
+		    Seconds: { color: "#C0C8CF" }
+		}}
+	); 
 
 });

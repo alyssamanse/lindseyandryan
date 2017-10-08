@@ -60,6 +60,17 @@
 	height: 100%;
 }
 
+.your-clock {
+	margin-bottom: -30px;
+	margin-top: -15px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.wed-card-header {
+	background-color: #bf5700;
+	line-height: 85px !important;
+}
+
 body {
 	background: #f2f5f6;
 	background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 50%, #c8d7dc 100%);
