@@ -23,10 +23,10 @@ $(document).ready(function(){
 
 	$(".your-clock").TimeCircles(
 		{ time: {
-		    Days: { color: "#C0C8CF" },
-		    Hours: { color: "#C0C8CF" },
-		    Minutes: { color: "#C0C8CF" },
-		    Seconds: { color: "#C0C8CF" }
+		    Days: { color: "#f0d1c3" },
+		    Hours: { color: "#f0d1c3" },
+		    Minutes: { color: "#f0d1c3" },
+		    Seconds: { color: "#f0d1c3" }
 		}}
 	); 
 
