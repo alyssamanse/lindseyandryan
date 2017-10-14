@@ -1,5 +1,5 @@
 .navy-background {
-	background-color: #38415c !important;
+	background-color: #000032 !important;
 }
 
 .peach-background {
@@ -11,7 +11,7 @@
 }
 
 .sage-background {
-	background-color: #808f7b;
+	background-color: #9dc183;
 }
 
 .cursive {
@@ -19,7 +19,7 @@
 	font-weight: bold;
 	font-size: 70px;
 	margin: auto;
-	color: #38415c;
+	color: #000032;
 }
 
 .reg-text {
@@ -36,7 +36,7 @@
 .shadow-text {
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
-	color: #808f7b;
+	color: #9dc183;
 	margin-top: 10px;
 	margin-bottom: 0;
 	font-weight: bold;
@@ -58,7 +58,7 @@
 }
 
 .section-top {
-	margin-top: 75px;
+	margin-top: 75px  !important;
 }
 
 .align-center {
@@ -85,7 +85,7 @@
 }
 
 .wed-card-header {
-	background-color: #808f7b;
+	background-color: #9dc183;
 	line-height: 85px !important;
 }
 
@@ -104,11 +104,10 @@
 	margin-bottom: -25px;
 }
 
+.card-image img {
+	height: 250px;
+}
+
 body {
-	
-	background: #fffff0;
-	background: -moz-linear-gradient(top, #fffff0 1%, #f0d1c3 50%, #f4aa8b 100%);
-	background: -webkit-linear-gradient(top, #fffff0 1%,#f0d1c3 50%,#f4aa8b 100%);
-	background: linear-gradient(to bottom, #fffff0 1%,#f0d1c3 50%,#f4aa8b 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffff0', endColorstr='#f4aa8b',GradientType=0 );
+	background-color: #ffffff;
 }
