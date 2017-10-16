@@ -27,6 +27,11 @@
 	font-size: 14px;
 }
 
+.fjalla-font {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+}
+
 .header-text {
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
@@ -87,6 +92,8 @@
 .wed-card-header {
 	background-color: #9dc183;
 	line-height: 85px !important;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
 }
 
 .photo-gallery img {
