@@ -27,6 +27,12 @@
 	font-size: 14px;
 }
 
+.reg-white-text {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	color: #ffffff;
+}
+
 .fjalla-font {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 18px;
@@ -56,6 +62,10 @@
 .wed-party-text {
 	margin-top: 25%;
 	font-size: 48px;
+}
+
+.wed-party-img {
+	margin: auto;
 }
 
 .banner-img {
