@@ -99,6 +99,20 @@
 
 /* ===== IMAGES ===== */
 
+.parallax-content-img { 
+    /* The image used */
+    background-image: url("../images/lpr-austin.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wed-party-img {
 
 }
