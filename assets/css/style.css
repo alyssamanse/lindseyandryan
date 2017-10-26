@@ -1,3 +1,5 @@
+/* ===== BACKGROUNDS ===== */
+
 .navy-background {
 	background-color: #000032 !important;
 }
@@ -13,6 +15,8 @@
 .sage-background {
 	background-color: #9dc183;
 }
+
+/* ===== FONTS AND TEXT ===== */
 
 .cursive {
 	font-family: 'Rouge Script', cursive;
@@ -82,6 +86,15 @@
 	margin: auto;
 }
 
+.nav-home {
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 20px;
+	font-family: 'Rouge Script', cursive;
+}
+
+/* ===== IMAGES ===== */
+
 .wed-party-img {
 
 }
@@ -89,6 +102,22 @@
 .banner-img {
 	width: 100%;
 }
+
+.wed-party-img {
+	position: absolute;
+	height: 100%;
+}
+
+.photo-gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+.card-image img {
+	height: 250px;
+}
+
+/* ===== ALIGNMENT AND POSITIONING ===== */
 
 .section-top {
 	margin-top: 75px  !important;
@@ -99,34 +128,8 @@
 	margin: 0 auto;
 }
 
-.nav-home {
-	font-size: 40px;
-	font-weight: bold;
-	margin-left: 20px;
-	font-family: 'Rouge Script', cursive;
-}
-
-.wed-party-img {
-	position: absolute;
-	height: 100%;
-}
-
-.your-clock {
-	margin-bottom: -30px;
-	margin-top: -15px;
-	font-family: 'Roboto Slab', serif;
-}
-
-.wed-card-header {
-	background-color: #9dc183;
-	line-height: 85px !important;
-	font-family: 'Fjalla One', sans-serif;
-	text-transform: uppercase;
-}
-
-.photo-gallery img {
-	width: 100%;
-	height: 100%;
+.content-box {
+	border-radius: 10px;
 }
 
 .bride {
@@ -139,8 +142,23 @@
 	margin-bottom: -25px;
 }
 
-.card-image img {
-	height: 250px;
+
+/* ===== COMPONENTS ===== */
+
+.your-clock {
+	margin-bottom: -30px;
+	margin-top: -15px;
+	font-family: 'Roboto Slab', serif;
+	overflow: auto;
+}
+
+.wed-card-header {
+	background-color: #9dc183;
+	line-height: 85px !important;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	opacity: .90;
+	border-radius: 5px;
 }
 
 body {
