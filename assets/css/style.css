@@ -113,6 +113,34 @@
     background-size: cover;
 }
 
+.parallax-content-img1 { 
+    /* The image used */
+    background-image: url("../images/lpr-bw.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-content-img2 { 
+    /* The image used */
+    background-image: url("../images/lpr-cheers.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wed-party-img {
 
 }
