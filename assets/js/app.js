@@ -95,7 +95,7 @@ $(document).ready(function(){
 
 
 	$("#zack").typeIt({
-		strings: ["Bridesman", "Co-Runner Up for Every Annual Cookie Decorating Championship", "Homecoming Date 08' for Life"],
+		strings: ["Bridesman", "Co-Runner Up for Every Annual Cookie Decorating Championship", "Homecoming Date 08'"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
