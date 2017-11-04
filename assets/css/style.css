@@ -46,15 +46,15 @@
 	font-weight: bold !important;
 }
 
-.small {
+.small-font {
 	font-size: 16px;
 }
 
-.medium {
+.medium-font {
 	font-size: 24px;
 }
 
-.large {
+.large-font {
 	font-size: 48px;
 }
 
@@ -142,7 +142,7 @@
 }
 
 .wed-party-img {
-
+	
 }
 
 .banner-img {
@@ -213,7 +213,7 @@
 .wed-card-header {
 	background-color: #9dc183;
 	line-height: 85px !important;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Fjalla One', sans-serif;
 	text-transform: uppercase;
 	opacity: .90;
 	border-radius: 5px;
