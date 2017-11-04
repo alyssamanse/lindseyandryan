@@ -104,7 +104,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#kyle").typeIt({
-		strings: [],
+		strings: ["Best Man", "Would you rather be feared or loved? Easy. I want people to fear how much they love me"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -113,7 +113,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#adam").typeIt({
-		strings: [],
+		strings: ["Best Man", "Dilly Dilly!"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -122,7 +122,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#connor").typeIt({
-		strings: [],
+		strings: ["Groomsman", "Private equity,", "...public liability"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -131,7 +131,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#cameron").typeIt({
-		strings: [],
+		strings: ["Groomsman", "Cameron, 26", "-Loves taking showers sitting down", "-Hates how his wife folds laundry", "-Owns 130 pairs of shoes"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -140,7 +140,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#andy").typeIt({
-		strings: [],
+		strings: ["Groomsman", "Andrew & Ryan have been friends since high school, where Ryan could not convince him to join the volleyball team", "He is the short groomsman"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -149,7 +149,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#nate").typeIt({
-		strings: [],
+		strings: ["Groomsman", " Ryan has been there to make up for Nate’s deficiencies since 4th grade, hopefully Nate can return the favor for Ryan and Lindsey’s big day"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -158,7 +158,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#rob").typeIt({
-		strings: [],
+		strings: ["Groomsman", "Young gentlemen living in DC", "Known Ryan since his SigEpic days at USC", "Can always rock a black vneck", "Yes ladies, he's single!"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -168,7 +168,7 @@ $(document).ready(function(){
 
 
 	$("#john").typeIt({
-		strings: [],
+		strings: ["Groomsman", "Three-time kickball champion", "Wants to be a pilot when he grows up", "Dog owner, wine lover, terrible golfer"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,

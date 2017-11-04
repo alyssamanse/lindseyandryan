@@ -150,7 +150,8 @@
 }
 
 .wed-party-img {
-	height: 400px;
+	display: block;
+	max-height: 400px;
 	margin-bottom: 25px;
 }
 
