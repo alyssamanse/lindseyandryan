@@ -9,6 +9,9 @@ $(document).ready(function(){
   	// Initialize carousel feature in Materialize
   	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
+  	// Initialize collapse button
+  	$(".button-collapse").sideNav();
+
   	$('a[href^="#"]').on('click', function(event) {
 
 	    var target = $(this.getAttribute('href'));
