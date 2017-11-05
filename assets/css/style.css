@@ -362,6 +362,24 @@
 
 /* ===== ALIGNMENT AND POSITIONING ===== */
 
+.scrollToTop{
+	text-align: center; 
+	background-color: #000032;
+	font-family: 'Fjalla One', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: none;
+	opacity: .75;
+}
+.scrollToTop:hover {
+	text-decoration: none;
+	background-color: #000032;
+	opacity: 1;
+}
+
 .section-top {
 	margin-top: 75px  !important;
 }
