@@ -104,7 +104,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#kyle").typeIt({
-		strings: ["Best Man", "Would you rather be feared or loved? Easy. I want people to fear how much they love me"],
+		strings: ["Best Man", "Would you rather be feared or loved? Easy. I want people to fear how much they love me."],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,
@@ -149,7 +149,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#nate").typeIt({
-		strings: ["Groomsman", " Ryan has been there to make up for Nate’s deficiencies since 4th grade, hopefully Nate can return the favor for Ryan and Lindsey’s big day"],
+		strings: ["Groomsman", " Ryan has been there to make up for Nate’s deficiencies since 4th grade", "..hopefully Nate can return the favor for Ryan and Lindsey’s big day"],
 		speed: 150, 
 		loop: true,
 		loopDelay: 3000,

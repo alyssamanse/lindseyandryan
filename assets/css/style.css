@@ -151,8 +151,11 @@
 
 .wed-party-img {
 	display: block;
-	max-height: 400px;
-	margin-bottom: 25px;
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 .photo-gallery img {
@@ -173,8 +176,180 @@
 	max-width: 100%;
 }
 
-.footer-img {
+#alyssa-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/AlyssaManse.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
+#brig-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/BrigitteRichardson.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sorelle-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/SorelleWyckoff_2.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#haelee-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/HaeleeHorne.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#danielle-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/DanielleAllen.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#sarah-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/SarahBates.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#adrian-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/AdrianRamirez.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#zack-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/ZackPanos.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#kyle-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/KyleBates.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#adam-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/AdamBates.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#connor-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/ConnorRyan.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cameron-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/CameronAndrew.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#andy-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/AndySmith.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#nate-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/NateGriggs.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#rob-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/RobCala.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#john-img {
+	position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/JohnWalker.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .map {
@@ -228,7 +403,6 @@
 	margin-bottom: -30px;
 	margin-top: -15px;
 	font-family: 'Roboto Slab', serif;
-	overflow: auto;
 }
 
 .wed-card-header {
