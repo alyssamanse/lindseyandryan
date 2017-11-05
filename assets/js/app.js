@@ -10,7 +10,10 @@ $(document).ready(function(){
   	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
   	// Initialize collapse button
-  	$(".button-collapse").sideNav();
+  	$(".button-collapse").sideNav({
+  		menuWidth: 250, 
+      	closeOnClick: true
+  	});
 
   	$('a[href^="#"]').on('click', function(event) {
 
