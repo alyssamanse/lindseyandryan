@@ -57,7 +57,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#brigitte").typeIt({
-		strings: ["-Matron of Honor", "-Most Likely to Always Bring the Wine", "-Kerbey Queso Connoisseur"],
+		strings: ["Brigitte, 26", "-Matron of Honor", "-Most Likely to Always Bring the Wine", "-Kerbey Queso Connoisseur"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -69,7 +69,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#haelee").typeIt({
-		strings: ["-Bridesmaid", "-CP Big Nasty MVP", "-Chopped Champion"],
+		strings: ["Haelee, 25", "-Bridesmaid", "-CP Big Nasty MVP", "-Chopped Champion"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -81,7 +81,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#sarah").typeIt({
-		strings: ["-Bridesmaid", "-Sole Female Survivor of the Bates Brothers", "-Future Sister-in-Law"],
+		strings: ["Sarah, 22", "-Bridesmaid", "-Sole Female Survivor of the Bates Brothers", "-Future Sister-in-Law"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -94,7 +94,7 @@ $(document).ready(function(){
 
 
 	$("#zack").typeIt({
-		strings: ["-Bridesman", "-Beer Bike Champion", "-Homecoming Date 08'"],
+		strings: ["Zack, 26", "-Bridesman", "-Beer Bike Champion", "-Homecoming Date 08'"],
 		speed: 100, 
 		cursor: false
 	}); 
