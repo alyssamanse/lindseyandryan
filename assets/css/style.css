@@ -204,7 +204,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("../images/SorelleWyckoff_2.JPG");
+    background-image: url("../images/SoRelleWyckoff_2.JPG");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -378,6 +378,10 @@
 	text-decoration: none;
 	background-color: #000032;
 	opacity: 1;
+}
+
+.card-bullets {
+	margin-top: -5%;
 }
 
 .section-top {

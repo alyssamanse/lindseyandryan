@@ -51,50 +51,50 @@ $(document).ready(function(){
 	);
 
 	$("#alyssa").typeIt({
-		strings: ["Maid of Honor", "Lifelong Roommate", "Co-Skeeball Champion"],
+		strings: ["Alyssa, 26", "-Maid of Honor", "-Most Likely to Win Bachelor Fantasy", "-Co-Skeeball Champion"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#brigitte").typeIt({
-		strings: ["Matron of Honor", "Literally the Nicest Person You'll Ever Meet", "Kerbey Queso Connoisseur"],
+		strings: ["-Matron of Honor", "-Most Likely to Always Bring the Wine", "-Kerbey Queso Connoisseur"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#sorelle").typeIt({
-		strings: ["Bridesmaid", "Mac and Cheese Lover", "Friend from Life"],
+		strings: ["SoRelle, 27", "-Bridesmaid", "-Mac and Cheese Lover", "-Friend from Life"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#haelee").typeIt({
-		strings: ["Bridesmaid", "CP Big Nasty MVP", "Chopped Champion"],
+		strings: ["-Bridesmaid", "-CP Big Nasty MVP", "-Chopped Champion"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#danielle").typeIt({
-		strings: ["Bridesmaid", "Lollapalooza Pirate", "Game Night Hostess with the Mostest"],
+		strings: ["Danielle, 26", "-Bridesmaid", "-Lollapalooza Pirate", "-First Round Game Night Draft Pick"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#sarah").typeIt({
-		strings: ["Bridesmaid", "Sole Female Survivor of the Bates Brothers", "Future Sister-in-Law"],
+		strings: ["-Bridesmaid", "-Sole Female Survivor of the Bates Brothers", "-Future Sister-in-Law"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 	$("#adrian").typeIt({
-		strings: ["Bridesman", "DJ Yo AJ", "Hot Cheetos and Taki's Spokesman"],
+		strings: ["Adrian, 27", "-Bridesman", "-Moonlights as DJ Javi", "-Hot Cheetos and Taki's Spokesman"],
 		speed: 100, 
 		cursor: false
 	}); 
 
 
 	$("#zack").typeIt({
-		strings: ["Bridesman", "Co-Runner Up for Every Annual Cookie Decorating Championship", "Homecoming Date 08'"],
+		strings: ["-Bridesman", "-Beer Bike Champion", "-Homecoming Date 08'"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -106,7 +106,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#adam").typeIt({
-		strings: ["Best Man", "Dilly Dilly!"],
+		strings: ["Best Man", "", "Dilly Dilly!"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -124,7 +124,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#andy").typeIt({
-		strings: ["Groomsman", "Andrew & Ryan have been friends since high school, where Ryan could not convince him to join the volleyball team", "He is the short groomsman"],
+		strings: ["Groomsman", "Andrew & Ryan have been friends since high school", "Ryan could not convince him to join the volleyball team", "...he is the short groomsman"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -136,7 +136,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#rob").typeIt({
-		strings: ["Groomsman", "Young gentlemen living in DC", "Known Ryan since his SigEpic days at USC", "Can always rock a black vneck", "Yes ladies, he's single!"],
+		strings: ["Groomsman", "Young gentlemen living in DC", "Known Ryan since his SigEpic days at USC", "Can always rock a black v-neck", "", "Yes ladies, he's single!"],
 		speed: 100, 
 		cursor: false
 	}); 
