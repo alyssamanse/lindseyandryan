@@ -460,21 +460,19 @@ body {
 
 	.title-text { font-size: 12px !important; line-height: 24px !important; }
 
-	.card-title { font-size: 24px !important; }
+	.card-title { font-size: 10px !important; line-height: 40px !important; }
 
 	.wed-card-header { line-height: 24px !important;}
 
 	.wed-party-text {font-size: 36px !important;}
 
-	.medium-font { font-size: 28px !important; }
+	.medium-font { font-size: 18px !important; }
 
 	.large-font {font-size: 32px !important;}
 
 	.map { display: none !important; }
 
 	.venue-img { display: none !important; }
-
-	.large-font { font-size: 10px !important; }
 
 	.time_circles { display: none; }
 }
