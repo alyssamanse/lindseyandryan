@@ -106,7 +106,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#adam").typeIt({
-		strings: ["Best Man", "", "Dilly Dilly!"],
+		strings: ["Best Man", " ", "Dilly Dilly!"],
 		speed: 100, 
 		cursor: false
 	}); 
@@ -136,7 +136,7 @@ $(document).ready(function(){
 	}); 
 
 	$("#rob").typeIt({
-		strings: ["Groomsman", "Young gentlemen living in DC", "Known Ryan since his SigEpic days at USC", "Can always rock a black v-neck", "", "Yes ladies, he's single!"],
+		strings: ["Groomsman", "Young gentlemen living in DC", "Known Ryan since his SigEpic days at USC", "Can always rock a black v-neck", " ", "Yes ladies, he's single!"],
 		speed: 100, 
 		cursor: false
 	}); 
