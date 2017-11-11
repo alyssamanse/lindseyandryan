@@ -4,6 +4,11 @@
 	background-color: #000032 !important;
 }
 
+.navy-opac-background {
+	background-color: #000032;
+	padding-top: 0 !important;
+}
+
 .peach-background {
 	background-color: #f4aa8b;
 }
@@ -449,8 +454,26 @@ body {
 	background-color: #ffffff;
 }
 
+@media screen and (max-width: 300px) and (min-width : 50px) {
+	.bride { display: none; }
+
+	.groom { display: none; }
+
+	.title-text { font-size: 16px !important; line-height: 24px; }
+
+	.wed-card-header { font-size: 16px; }
+
+	.medium-font { font-size: 10px; }
+
+	.map { max-height: 100px; }
+
+	.large-font { font-size: 12px; }
+
+	.time_circles { display: none; }
+}
+
 /* Smartphones (portrait and landscape) ----------- */
-@media screen and (max-width: 760px) and (min-device-width : 320px) {
+@media screen and (max-width: 760px) and (min-width : 320px) {
 	.bride { margin-left: 30px; }
 
 	.groom { margin-right: 65px; }
@@ -463,19 +486,19 @@ body {
 
 	.large-font { font-size: 24px; }
 
-	.time_circles { width: 250px; }
+	.time_circles { display: none;}
 
 }
 
 @media screen and (max-width: 1220) and (min-width : 768px) {
 	.title-text { font-size: 52px !important; }
 
-	.time_circles { width: 500px; }
+	.time_circles { width: 500px; margin: auto;}
 }
 
 /* Desktops and laptops ----------- */
 @media screen  and (min-width : 1224px) {
 	.title-text { font-size: 60px !important; }
 
-	.time_circles { width: 700px; }
+	.time_circles { width: 700px; margin: auto; }
 }
