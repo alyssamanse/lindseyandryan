@@ -458,17 +458,15 @@ body {
 
 	.bridegroom { display: none !important; }
 
-	.title-text { font-size: 12px !important; line-height: 24px !important; }
+	.title-text { font-size: 12px !important; }
 
-	.card-title { font-size: 10px !important; line-height: 40px !important; }
-
-	.wed-card-header { line-height: 24px !important;}
+	.wed-card-header { line-height: 40px !important;}
 
 	.wed-party-text {font-size: 36px !important;}
 
 	.medium-font { font-size: 18px !important; }
 
-	.large-font {font-size: 32px !important;}
+	.large-font {font-size: 20px !important;}
 
 	.map { display: none !important; }
 
