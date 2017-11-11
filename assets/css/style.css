@@ -455,9 +455,7 @@ body {
 }
 
 @media screen and (max-width: 300px) and (min-width : 50px) {
-	.bride { display: none; }
-
-	.groom { display: none; }
+	.bridegroom { display: none; }
 
 	.title-text { font-size: 16px !important; line-height: 24px; }
 
