@@ -465,7 +465,9 @@ body {
 
 	.medium-font { font-size: 10px; }
 
-	.map { max-height: 100px; }
+	.map { display: none; }
+
+	.venue-img { display: none; }
 
 	.large-font { font-size: 12px; }
 
