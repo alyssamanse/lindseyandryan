@@ -455,18 +455,18 @@ body {
 }
 
 @media screen and (max-width: 480px) and (min-width : 50px) {
-	
+
 	.bridegroom { display: none !important; }
 
-	.title-text { font-size: 16px !important; line-height: 6px !important; }
+	.title-text { font-size: 12px !important; line-height: 16px !important; }
 
-	.wed-card-header { font-size: 12px !important; line-height: 6px !important;}
+	.wed-card-header { line-height: 16px !important;}
 
-	.wed-party-text {font-size: 18px !important;}
+	.wed-party-text {font-size: 36px !important;}
 
-	.medium-font { font-size: 10px !important; }
+	.medium-font { font-size: 16px !important; }
 
-	.large-font {font-size: 10px !important;}
+	.large-font {font-size: 20px !important;}
 
 	.map { display: none !important; }
 
