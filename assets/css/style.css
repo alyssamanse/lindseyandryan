@@ -460,6 +460,8 @@ body {
 
 	.title-text { font-size: 12px !important; line-height: 24px !important; }
 
+	.card-title { font-size: 24px !important; }
+
 	.wed-card-header { line-height: 24px !important;}
 
 	.wed-party-text {font-size: 36px !important;}
