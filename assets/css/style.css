@@ -473,6 +473,8 @@ body {
 	.venue-img { display: none !important; }
 
 	.time_circles { display: none; }
+
+	.short-top-margin { margin-top: -10px; }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
