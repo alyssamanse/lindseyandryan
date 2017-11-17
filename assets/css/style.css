@@ -505,5 +505,7 @@ body {
 @media screen  and (min-width : 1224px) {
 	.title-text { font-size: 56px !important; }
 
+    .medium-font { font-size: 22px; }
+
 	.time_circles { width: 600px; }
 }
