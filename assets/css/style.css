@@ -503,7 +503,7 @@ body {
 
 /* Desktops and laptops ----------- */
 @media screen  and (min-width : 1224px) {
-	.title-text { font-size: 60px !important; }
+	.title-text { font-size: 56px !important; }
 
-	.time_circles { width: 700px; margin: auto; }
+	.time_circles { width: 600px; }
 }
