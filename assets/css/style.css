@@ -522,7 +522,16 @@ body {
 
 	.time_circles { display: none; }
 
-	.short-top-margin { margin-top: -10px; }
+    .short-top-margin { margin-top: -10px; }
+    
+    .scrollToRsvp {
+        margin-top: -25px;
+        font-size: 50px !important; 
+        margin-top: -15px;
+    }
+    .scrollToRsvp:hover {
+        font-size: 75px !important;
+    }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -539,7 +548,17 @@ body {
 
 	.large-font { font-size: 24px; }
 
-	.time_circles { display: none;}
+    .time_circles { display: none;}
+    
+    .scrollToRsvp{
+        margin-top: -25px;
+        font-size: 50px;
+        margin: 0 auto;
+        margin-top: -15px;
+    }
+    .scrollToRsvp:hover {
+        font-size: 75px;
+    }
 
 }
 
