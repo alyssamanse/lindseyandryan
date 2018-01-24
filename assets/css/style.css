@@ -31,6 +31,17 @@
 	color: #000032;
 }
 
+.callout {
+	font-family: 'Rouge Script', cursive;
+	font-weight: bold;
+    font-size: 125px;
+    text-align: center;
+    color: #fff;
+    margin-top: 250px;
+    margin-bottom: 0;
+    position: relative;
+}
+
 .reg-text {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
@@ -150,8 +161,23 @@
     background-size: cover;
 }
 
+.banner {
+    position: relative;
+}
+
 .banner-img {
-	width: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.rsvpBtn {
+    background-color: #ee6e73;
+    color: #fff !important;
+    margin-right: 5px;
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
 }
 
 .wed-party-img {
@@ -396,6 +422,28 @@
 	text-decoration: none;
 	background-color: #000032;
 	opacity: 1;
+}
+
+.scrollToRsvp{
+    text-align: center; 
+    display: block;
+	color: #ffffff;
+    text-decoration: none;
+    margin-top: -25px;
+    font-size: 100px;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+.scrollToRsvp:hover {
+    text-decoration: none;
+    font-size: 150px;
+    color: #f0d1c3;
+	opacity: 1;
+}
+
+#rsvp {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .section-top {
